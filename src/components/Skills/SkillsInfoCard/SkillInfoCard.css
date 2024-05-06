@@ -1,0 +1,69 @@
+.skills-info-card{
+  min-height: 24rem;
+  border-radius: 0.65rem;
+  border: 1.5px solid #4bd8e2;
+  background: rgba(28, 243, 222, 0.082);
+  backdrop-filter: blur(1rem);
+}
+.skills-info-card h6{
+  font-family:"Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(180deg #96fff6 0%, #5fc0e6 100%);
+  border-bottom: 1.5px solid #51a9b9;
+}
+
+.skills-info-content {
+  padding: 1rem 2rem;
+}
+
+.skills-info-content {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around;
+  flex-grow: 1; 
+  gap: 10px;
+}
+.skill-info-flex {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+  gap: 2px;
+}
+.skill-info-flex span{
+  font-family:"Poppins", sans-serif; 
+  }
+
+  .icon-skill{
+    width: 70px;
+  }
+
+  .icon-skill:hover{
+    transform: scale(1.08);
+  }
+
+
+
+  /* nose */
+  @media(max-width:1025px){
+    .skills-info-card{
+      font-size: 1.1rem;
+    }
+
+    .skil-info p{
+      font-size: 0.9rem;
+    }
+
+    .skills-info-content{
+      padding: 1.5rem;
+    }
+  }
+
+  @media(max-width:768px){
+    .icon-skill{
+      width: 50px;
+    }
+  
+  }

@@ -1,0 +1,95 @@
+section {
+  scroll-margin-top: 150px; 
+}
+
+.skills-container {
+  margin: 4rem 0;
+  position: relative;
+}
+
+/* mientras veo que mediaquery coloco */
+/* .skills-container::before,
+.skills-container::after {
+  content: '';
+  width: 10rem; 
+  height: 10rem; 
+  border-radius: 50%;
+  background-color: #099599;
+  position: absolute;
+  z-index: -1;
+  filter: blur(200px);
+}
+
+.skills-container::before {
+  top: -2rem; 
+  left: -4rem; 
+}
+
+.skills-container::after {
+  bottom: -2rem; 
+  right: -2rem; 
+} */
+.skills-container h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3.5rem;
+  font-family: 'Poppins',sans-serif;
+}
+
+.skills-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.skills {
+  flex: 1;
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.skills-info {
+  flex: 1;
+}
+
+@media (max-width: 1025px) {
+
+
+  .skills,
+  .skills-content {
+    grid-gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-content {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+
+  .skills,
+  .skills-info {
+    width: 100%;
+  }
+
+  .skills-container h3{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+
+
+  .skills-container::after,
+  .skills-container::before{
+    width: 18rem;
+    height: 18rem;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .skills-container{
+    padding: 0;
+  }
+
+  
+}
