@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const ExperienceCard = ({details}) => {
   return (
     <div className='work-experience-card'>
-      <h6>{details.title}</h6>
+      <h3>{details.title}</h3>
 
 
       <div className='work-duration'>

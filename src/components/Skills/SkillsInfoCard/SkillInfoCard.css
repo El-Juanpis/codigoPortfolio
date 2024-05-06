@@ -5,7 +5,7 @@
   background: rgba(28, 243, 222, 0.082);
   backdrop-filter: blur(1rem);
 }
-.skills-info-card h6{
+.skills-info-card h3{
   font-family:"Poppins", sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
